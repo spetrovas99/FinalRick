@@ -6,7 +6,7 @@ const Header =(props) => {
         <div className ="Header"> 
         {console.log(props.dato)}
            
-            {props.page > 1? <button onClick ={() => props.siguiente()}>pag. siguiente</button> : null}
+            {props.page > 1? <button onClick ={() => props.anterior()}>pag. anterior</button> : null}
             {props.page}
            
             <button onClick ={() => props.siguiente()}>pag. siguiente</button>
